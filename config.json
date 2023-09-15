@@ -1,0 +1,26 @@
+{
+  "host": "127.0.0.1",
+  "port": 5600,
+  "wsConfig": {
+    "addr": "ws://127.0.0.1:8080",
+    "key": "1234567890",
+    "qq": 123456789
+  },
+  "topics": [
+    {
+      "id": "noti",
+      "desc": "我的通知",
+      "secure": {
+        "method": "token",
+        "secret": "12345678"
+      },
+      "targets": [
+        {
+          "type": "group",
+          "number": 1145141919,
+          "at": []
+        }
+      ]
+    }
+  ]
+}
